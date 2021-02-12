@@ -21,3 +21,30 @@ exports.mySqlConfig = {
     // database: "FastTrack"
 };
 
+
+// exports.connection = async (database = "test") => {
+//
+//     const mysqlConnection = mysql.createConnection(
+//     config.mySqlConfig
+//     );
+//
+//     mysqlConnection.connect((err) => {
+//         if (err) {
+//             console.log(err);
+//         } else {
+//             console.log('Connected to MySQL Server!');
+//         }
+//     });
+// };
+
+// const mysqlConnection = mysql.createConnection(
+//     mySqlConfig
+// );
+//
+// mysqlConnection.connect((err) => {
+//     if (err) throw err;
+//     console.log('Connected to MySQL Server!');
+// });
+
+
+
